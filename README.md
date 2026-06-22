@@ -13,7 +13,7 @@ In this project you will build a complete cloud-native platform that includes:
 * 🚀 ArgoCD
 * 🗂 Git Workflow
 
-The project is divided into **5 main parts**.
+The project is divided into **4 main parts**.
 
 ---
 
