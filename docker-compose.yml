@@ -21,3 +21,32 @@ services:
     container_name: loki
     ports:
       - 3100:3100
+      
+-----------------------------
+
+# Grafana Stack: monitoring
+
+# Grafana - Dashboards 
+# Prometheus - Metrics DB -> pulling / scrape
+# Loki - Logs DB -> push event
+
+
+# Datadog
+# Logs.io
+# CloudWatch -> AWS
+# Grafana - Cloud / On Prem
+# ELK Stack
+# GCP Monitoring service
+# AZURE Monitoring service
+
+
+# 1. terminal/console output
+# 2. loges save in file
+# 3. send the logs to some endpoint (loki)
+
+
+# linux -> node exporter
+# windows -> windows exporter
+# docker containers -> cAdvisor exporter
+
+# k8s exporter
