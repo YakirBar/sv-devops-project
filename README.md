@@ -442,6 +442,8 @@ This project simulates a real-world enterprise DevOps platform including:
 * GitOps Workflows
 * Artifact Management
 
+------------------------------
+
 Bonus Task: Security Image Scanner Integration with NexusHub
 
 Add an image scanning capability integrated with NexusHub that automatically triggers on every push request in the CI/CD pipeline.
