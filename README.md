@@ -441,3 +441,9 @@ This project simulates a real-world enterprise DevOps platform including:
 * CI/CD Automation
 * GitOps Workflows
 * Artifact Management
+
+Bonus Task: Security Image Scanner Integration with NexusHub
+
+Add an image scanning capability integrated with NexusHub that automatically triggers on every push request in the CI/CD pipeline.
+
+Requirements: Implement an image scanning service connected to NexusHub. Trigger the scan automatically on every push request (CI pipeline hook). Analyze uploaded images/artifacts for vulnerabilities or security risks. If a high-severity vulnerability is detected: Send an email notification to yourself. Fail the pipeline immediately and prevent further execution. Ensure the scanning step is fully integrated into the existing pipeline flow.
